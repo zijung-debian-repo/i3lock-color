@@ -1,0 +1,5 @@
+version=4
+
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%i3lock-color-$1.tar.gz%" \
+  https://github.com/PandorasFox/i3lock-color/releases \
+  (?:.*?/)?v?(\d[\d.]*)\.tar\.gz
